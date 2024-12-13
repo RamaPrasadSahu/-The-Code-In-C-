@@ -1,1 +1,45 @@
+// First Program Starts
+#include <stdio.h>
+#include <string.h>
+
+struct structure {
+    int rollno;
+    char name[30];
+    float mark;
+} Rm1, Rm2;
+
+int main() {
+ 
+    strcpy(Rm1.name, "Rama");
+    Rm1.rollno = 20;
+
+  
+    printf("%s\n", Rm1.name);
+    printf("%d\n", Rm1.rollno);
+
+    return 0;
+}
+
+// End of First Program 
+//Second Program Starts
+#include <stdio.h>
+#include <string.h>
+
+union  str {
+    int slno;
+    char name[30];
+    float mark;
+} e1,e2;
+    void main (){
+      strcpy(e1.name, "Rama Prasad Sahu and Brand");
+        e1.mark=575.776;
+        printf("%s\n",e1.name);
+        printf("%3f",e1.mark);
+        
+        
+    }
+  //Second Program Ends
+//https:www.programiz.com/online-compiler/3xPeOqQqKrDPb
+    
+
 
